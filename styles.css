@@ -1,0 +1,89 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#008080;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+body{
+    margin: 0px;
+    /* modify background color here*/
+    background-color:#000000;
+    
+}
+.grid{
+    background-image:url("/main2.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    
+}
+
+.grid .background-tint{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: sans-serif;
+    justify-content: space-evenly;
+    background-color: #ffaa3c6c;
+}
+.grid .background-tint img{
+    border: 4px solid #00ff15;
+    border-radius: 50px;
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color: #ffffff77;
+    /* modify margin and padding here*/
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: fantasy;
+    
+}
+
+
+
+.header a{
+    color: #6affcd;
+    border-radius: 10px;
+    background-color: #555555;
+    border: solid #00ffff49;
+}
+
+.bodyimg{
+    text-align: center;
+    color: #ff009dc9;
+    background-color: rgb(97, 50, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.heading{
+    color: #ffb779;
+}
+.sub-header{
+    color:#ff5e0088;
+    text-align: center;
+    font-size: 40px;
+}
+.contents{
+    color: white
+}
+
+.contents a{
+    color:rgb(241, 255, 214);
+    font-size: 30px;
+}
+
+.other{
+    color:grey;
+    background-color: lightblue;
+}
+ .other h4{
+     color: rgb(133, 76, 226);
+     font-size: 25px
+}
